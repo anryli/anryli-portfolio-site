@@ -13,7 +13,7 @@ export default function Home() {
           </p>
         </div>
         <Image
-          src="/your-photo.jpg" // Replace with the actual path of your photo
+          src="../public/images/tibetanfox.jpeg" // Replace with the actual path of your photo
           alt="Jiayi Li"
           width={200}
           height={200}
