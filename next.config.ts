@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Ensures static output for GitHub Pages
-  assetPrefix: './', // Ensures assets work correctly with relative paths
-  trailingSlash: true, // Adds a trailing slash to paths
+  output: 'export', // Enables static export
+  assetPrefix: './', // Ensures assets use relative paths for GitHub Pages
+  trailingSlash: true, // Adds trailing slashes to all routes
 };
 
 module.exports = nextConfig;
