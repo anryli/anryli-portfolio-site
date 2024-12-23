@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Enables static export
-  trailingSlash: true, // Ensures trailing slashes for all paths
-  assetPrefix: './', // Ensures assets are served with relative paths
+  output: 'export', // Enable static export
+  trailingSlash: true, // Add trailing slashes to all routes
+  assetPrefix: './', // Ensure assets are served with relative paths
   images: {
-    unoptimized: true, // Disables Image Optimization API
+    unoptimized: true, // Disable Image Optimization for static export
   },
 };
 
 module.exports = nextConfig;
-
-
-
