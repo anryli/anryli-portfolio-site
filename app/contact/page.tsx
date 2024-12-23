@@ -10,7 +10,7 @@ export default function Contact() {
             <input
               type="text"
               className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Your Name"
+              placeholder="Jiayi Li"
             />
           </div>
           <div>
@@ -18,7 +18,7 @@ export default function Contact() {
             <input
               type="email"
               className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Your Email"
+              placeholder="tibetanfoxanry@gmail.com"
             />
           </div>
           <div>
